@@ -11,4 +11,3 @@ jobs:
        - uses: actions/checkout@v2
        - run: npm install &
        - run: npx newman run test/integration.json
-	  
