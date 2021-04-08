@@ -7,7 +7,7 @@ on:
 jobs:
   integrationTests:
     runs-on: ubuntu-latest
-	  steps:
+	steps:
 	    - uses: actions/checkout@v2
 	    - run: npm install &
 	    - run: npx newman run test/integration.json
